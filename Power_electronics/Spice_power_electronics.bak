@@ -82,9 +82,6 @@
     (property "Spice_Lib_File" "$(KICAD_SIMULATION_LIB_DIR)/ngspice-lib/switches/SPDT/SPDT.lib" (id 7) (at 0 -16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Switches from terminal 2 to 3 when terminal 4 has voltage greater than thres" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (symbol "SPDT_Switch_0_1"
       (rectangle (start -5.08 3.81) (end 5.08 -3.81)
         (stroke (width 0) (type default) (color 0 0 0 0))
