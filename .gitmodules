@@ -1,0 +1,3 @@
+[submodule "ngspice-lib"]
+	path = ngspice-lib
+	url = git@github.com:eduardobehr/ngspice-lib.git
