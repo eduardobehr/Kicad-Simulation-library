@@ -25,3 +25,39 @@
         * E.g. passing initial condition to the integrator's output
             Name: Spice_Model
             Value: INTEGRATOR ic=10
+
+
+# Example
+
+## Ngspice model definition (file: ngspice-lib/pwm_generator/pwm_generator.lib)
+
+```
+** input nodes:
+*           ||=============>signal: arbitrary voltage signal to be
+*           ||                      modulated (e.g. sine wave)
+*           ||     ||======>freq: carier voltage given as a voltage value
+*           ||     ||   ||=>output: PWM output signal
+.subckt PWM3 signal freq output
+
+BsawtoothP      sawtoothP       gnd     v=0.5+(time*v(freq)-floor(0.5+time*v(freq)))
+BsawtoothM      sawtoothN       gnd     v=-0.5+(time*v(freq)-floor(0.5+time*v(freq)))
+Bpwm            output          gnd     v=v(signal)>=v(sawtoothP) && v(signal)>=0 ? 1 : v(signal)<=v(sawtoothN) && v(signal)<=0 ? -1 : 0
+
+.ends PWM3
+```
+
+## Symbol creation and model linking
+
+![image component creation](resources/component_creation.png)
+
+## Usage of symbol with embedded spice model
+
+![image component usage](resources/self_made_pwm_block.png)
+
+
+
+
+
+
+
+
