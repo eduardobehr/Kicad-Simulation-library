@@ -67,7 +67,7 @@
     (symbol "1st Order Transfer Function_0_1"
       (rectangle (start -2.54 -1.27) (end 2.54 3.81)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "1st Order Transfer Function_1_1"
@@ -138,7 +138,7 @@
     (symbol "Clamper_0_1"
       (rectangle (start -3.81 2.54) (end 3.81 -2.54)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
       (polyline
         (pts
@@ -321,7 +321,7 @@
     (symbol "Integrator_0_1"
       (rectangle (start -2.54 2.54) (end 2.54 -2.54)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
       (polyline
         (pts
@@ -519,7 +519,7 @@
     (symbol "sum2_0_0"
       (rectangle (start -2.54 2.54) (end 2.54 -2.54)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
       (polyline
         (pts
@@ -581,7 +581,7 @@
     (symbol "sum3_0_0"
       (rectangle (start -2.54 3.81) (end 2.54 -3.81)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
       (polyline
         (pts
@@ -647,7 +647,7 @@
     (symbol "sum4_0_0"
       (rectangle (start -2.54 5.08) (end 2.54 -5.08)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
       (polyline
         (pts
@@ -717,7 +717,7 @@
     (symbol "sum5_0_0"
       (rectangle (start -2.54 6.35) (end 2.54 -6.35)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
       (polyline
         (pts

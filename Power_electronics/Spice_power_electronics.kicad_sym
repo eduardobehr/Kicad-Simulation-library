@@ -340,7 +340,7 @@
           (xy -2.54 0)
           (xy 2.54 0)
         )
-        (stroke (width 0.05) (type default) (color 0 0 0 0))
+        (stroke (width 0.03) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
@@ -365,7 +365,7 @@
     (symbol "Wattmeter_0_1"
       (circle (center 0 0) (radius 2.54)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "Wattmeter_1_1"
