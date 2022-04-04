@@ -18,7 +18,7 @@
 
     * Make only the following fields visible:
         * Reference (e.g. "X")
-        * Spice_Model (e.g. "INTEGRATOR")
+        * Spice_Model (e.g. "CCCS g=1")
 
 * Usage
     * Pass subcircuit parameters right after the model name as the value of **Spice_Model**
