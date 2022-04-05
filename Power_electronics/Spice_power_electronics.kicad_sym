@@ -1,5 +1,5 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "CCCS" (in_bom no) (on_board no)
+  (symbol "CCCS" (pin_numbers hide) (in_bom no) (on_board no)
     (property "Reference" "U" (id 0) (at 10.16 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -42,7 +42,7 @@
           (xy -2.54 0)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
       (polyline
         (pts
@@ -792,7 +792,7 @@
           (xy -2.54 0)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
       (polyline
         (pts
@@ -837,7 +837,7 @@
       )
     )
   )
-  (symbol "VCVS" (in_bom no) (on_board no)
+  (symbol "VCVS" (pin_numbers hide) (in_bom no) (on_board no)
     (property "Reference" "U" (id 0) (at 8.89 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -925,7 +925,7 @@
           (xy -2.54 0)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
       (arc (start 3.81 -2.54) (mid 17.7756 0) (end 3.81 2.54)
         (stroke (width 0) (type default) (color 0 0 0 0))
